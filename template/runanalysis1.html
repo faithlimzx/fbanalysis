@@ -1,0 +1,15 @@
+{% block content %}
+<h2> Run Analysis </h2>
+<form action=" " method="post">
+    <p>
+        {{form.token.label}}<br>
+        {{form.token(size=30)}}
+    </p>
+    <p>
+        {{form.page_id.label}}<br>
+        {{form.page_id(size=30)}}
+    </p>
+    <p>{{form.submit()}}</p>
+</form>
+
+{% endblock %}
