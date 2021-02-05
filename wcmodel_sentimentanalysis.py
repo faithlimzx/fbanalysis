@@ -17,7 +17,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 #print (allMessages)
 #stopwords = set(STOPWORDS)
 
-token = 'EAAFJkdFc6GEBAFZC2DiOlSgs2ZC0u0gKcspOx9MG130sQZC8pYGIKP2bgWxderZCfZCLd5oNaqYChCqIDFhQsg2bZAQv5vzoaPErODHanw8oRGHJEGL81Sj1aZAHBk6jBouakXQiBK4FpiAZB4cmZCQgbDr9qItRLlvF9LrQyQmdhwK7quGLkLOrWNTcs5cISEx4ZD'
+token = 'EAAFJkdFc6GEBAOlj2PkZBfmovne0XLNuZBnhVO3GimTqA1taetdpZAadookD8t42wx4Vfk5QL561npOOoR0RBUVxnZChitutmKbvSBgrzp3raidyJm4YJMjQuctZAS6dmcNCe6BnaNdgOLNXGzZA2TI3DSgni9zhlHFzTcGyMUFA2JpWfQ0zFpkqJCBI8zqqimBLrqcJD4NIZAmm7JQMk14'
 
 graph = facebook.GraphAPI(access_token= token, version ="3.1")
 
