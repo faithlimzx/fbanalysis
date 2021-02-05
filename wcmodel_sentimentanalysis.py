@@ -53,16 +53,16 @@ while(True):
         posts = requests.get(conversation_next).json()
     except KeyError:
         break
-'''
+
 wc = WordCloud(max_font_size=75, max_words=100,width=500, height=400,collocations=False,
                 background_color='white',scale=1,relative_scaling=0.5).generate(str(allMessages))
 plt.imshow(wc,interpolation='bilinear')
 plt.axis("off")
-#plt.savefig('C:/Users/faith/facebookpython/static/wordcloud_photo/wordcloud3.png')
-#plt.show()
+plt.savefig('static/wordcloud_photo/wordcloud4.png')
+plt.show()
+
+
 '''
-
-
 analyse = SentimentIntensityAnalyzer()
         #nltk.downloader.download('vader_lexicon')
             
@@ -85,7 +85,7 @@ x, y = zip(*lists) # unpack a list of pairs into two tuples
 plt.bar(x, y)
 plt.savefig('static/wordcloud_photo/chart.png')
 plt.show()
-
+'''
 
 
 
