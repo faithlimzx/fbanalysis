@@ -83,7 +83,7 @@ lists = sorted(summary.items()) # sorted by key, return a list of tuples
 x, y = zip(*lists) # unpack a list of pairs into two tuples
 
 plt.bar(x, y)
-plt.savefig('C:/Users/faith/facebookpython/static/wordcloud_photo/chart.png')
+plt.savefig('static/wordcloud_photo/chart.png')
 plt.show()
 
 
